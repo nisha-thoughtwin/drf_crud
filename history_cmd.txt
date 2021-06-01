@@ -1,0 +1,15 @@
+    1  ls
+    2  pip install django
+    3  source g:/Nisha/API/drf/env/Scripts/activate
+    4  python manage.py loaddata fixtures.json
+    5  python manage.py loaddata fixtures.json
+    6  python manage.py loaddata fixtures.json
+    7  python manage.py loaddata fixtures.json
+    8  python manage.py loaddata fixtures.json
+    9  python manage.py loaddata fixtures.json
+   10  python manage.py loaddata fixtures.json
+   11  python manage.py loaddata fixtures.json
+   12  python manage.py dumpdata > employee.json
+   13  python manage.py loaddata employee.json
+   14  python manage.py loaddata fixtures.json
+   15  history > history_cmd.txt
