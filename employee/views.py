@@ -19,7 +19,7 @@ from rest_framework.permissions import IsAuthenticated
 from rest_framework.authentication import TokenAuthentication
 from .tasks import add,mail
 # Create your views here.
-# --------------------------------------class base APIView--------------------
+# --------------------------------------class based APIView--------------------
 def adds(request):
     if request.method =="POST":
         email=request.POST["email"]
