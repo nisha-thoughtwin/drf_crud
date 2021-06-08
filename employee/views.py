@@ -1,4 +1,6 @@
-from django.shortcuts import render
+from django.shortcuts import render,HttpResponse
+from django.views import View
+from django.views.generic.base import TemplateView
 from rest_framework.response import Response
 from rest_framework.views import APIView
 from django.http import Http404
@@ -15,9 +17,22 @@ from . import serializers
 from . import models
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.authentication import TokenAuthentication
-
+from .tasks import add,mail
 # Create your views here.
 # --------------------------------------class base APIView--------------------
+def adds(request):
+    if request.method =="POST":
+        email=request.POST["email"]
+        msg=request.POST["msg"]
+        # email =['mdeeppatidar@gmail.com','nisha.thoughtwin@gmail.com']
+        mail.delay(email,msg)
+        return HttpResponse("Success")
+    return render(request,'add.html')
+
+
+class ClickMe(TemplateView):
+    template_name="clickme.html"
+    
 
 class ArticleView(APIView):
     # authentication_classes=[JWTAuthentication]
@@ -34,12 +49,6 @@ class ArticleView(APIView):
             return Response(serializer.data, status=status.HTTP_201_CREATED)
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
-    # def post(self, request, format=None):
-    #     serializer = ArticleSerializer(data=request.data)
-    #     if serializer.is_valid():
-    #         serializer.save()
-    #         return Response(serializer.data, status=status.HTTP_201_CREATED)
-    #     return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
 class ArticleRetrive(APIView):
     permission_classes = (IsAuthenticated,)

@@ -10,6 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
+import os
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -63,7 +64,7 @@ ROOT_URLCONF = 'drf.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -149,3 +150,64 @@ sentry_sdk.init(
     # django.contrib.auth) you may enable sending PII data.
     send_default_pii=True
 )
+EMAIL_USE_TLS = True 
+EMAIL_HOST = 'smtp.gmail.com'  
+EMAIL_PORT = 587  
+EMAIL_HOST_USER = 'nishachouhan232@gmail.com'  
+EMAIL_HOST_PASSWORD = '14oct2019' 
+
+CELERY_BROKER_URL = 'amqp://localhost'
+# CELERY_RESULT_BACKEND =  'amqp://localhost'
+CELERY_ACCEPT_CONTENT = ['application/json']
+CELERY_RESULT_SERIALIZER = 'json'
+CELERY_TASK_SERIALIZER = 'json'
+
+
+
+#  'send-summary-every-hour': {
+#        'task': 'summary',
+#         # There are 4 ways we can handle time, read further 
+#        'schedule': 5.0,
+#         # If you're using any arguments
+#        'args': ("We don’t need any",),
+#     },
+    # Executes every Friday at 4pm
+     
+# CELERY_BEAT_SCHEDULE = {
+#     "send-notification-on-every 10 sec``": { 
+#          "task": "employee.tasks.mail", 
+#         #  'schedule': crontab(hour=16, day_of_week=5),
+#             "schedule": 60.0,
+
+#         },          
+# }
+
+
+# DataFlair #Logging Information
+LOGGING = {
+    'version': 1,
+    # Version of logging
+    'disable_existing_loggers': False,
+    #disable logging 
+    # Handlers #############################################################
+    'handlers': {
+        'file': {
+            'level': 'DEBUG',
+            'class': 'logging.FileHandler',
+            'filename': 'dataflair-debug.log',
+        },
+########################################################################
+        'console': {
+            'class': 'logging.StreamHandler',
+        },
+    },
+    # Loggers ####################################################################
+    'loggers': {
+        'django': {
+            'handlers': ['file', 'console'],
+            'level': 'DEBUG',
+            'propagate': True,
+            'level': os.getenv('DJANGO_LOG_LEVEL', 'DEBUG')
+        },
+    },
+}
