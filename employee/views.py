@@ -1,3 +1,4 @@
+import re
 from django.shortcuts import render,HttpResponse
 from django.views import View
 from django.views.generic.base import TemplateView
@@ -5,6 +6,9 @@ from rest_framework.response import Response
 from rest_framework.views import APIView
 from django.http import Http404
 from rest_framework_simplejwt.authentication import JWTAuthentication
+from django.conf import settings
+import stripe
+from stripe.api_resources import source
 
 from employee.models import Author,Article,Employee
 from .serializers import ArticleSerializer,EmployeeSerializer
@@ -19,7 +23,7 @@ from rest_framework.permissions import IsAuthenticated
 from rest_framework.authentication import TokenAuthentication
 from .tasks import add,mail
 # Create your views here.
-# --------------------------------------class based APIView--------------------
+
 def adds(request):
     if request.method =="POST":
         email=request.POST["email"]
@@ -32,7 +36,31 @@ def adds(request):
 
 class ClickMe(TemplateView):
     template_name="clickme.html"
+
+
+stripe.api_key = settings.STRIPE_SECRATE_KEY
+class PaymentGateway(TemplateView):
+    template_name="paymentgateway.html"
     
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context['key'] = settings.STRIPE_PUBLISHABLE_KEY
+        return context
+
+def charge(request):
+    if request.method == 'POST':
+        charge = stripe.Charge.create(
+            amount=500,
+            currency='inr', 
+            description= 'Payment gateway',
+            source=request.POST['stripeToken']
+            )
+        return render(request,'charge.html')
+    
+# class PaymentSuccess(TemplateView):
+#     template_name = 'paymentsuccessfull.html'
+
+# --------------------------------------class based APIView--------------------
 
 class ArticleView(APIView):
     # authentication_classes=[JWTAuthentication]

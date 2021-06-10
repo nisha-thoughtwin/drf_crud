@@ -1,15 +1,1000 @@
-    1  ls
-    2  pip install django
-    3  source g:/Nisha/API/drf/env/Scripts/activate
-    4  python manage.py loaddata fixtures.json
-    5  python manage.py loaddata fixtures.json
-    6  python manage.py loaddata fixtures.json
-    7  python manage.py loaddata fixtures.json
-    8  python manage.py loaddata fixtures.json
-    9  python manage.py loaddata fixtures.json
-   10  python manage.py loaddata fixtures.json
-   11  python manage.py loaddata fixtures.json
-   12  python manage.py dumpdata > employee.json
-   13  python manage.py loaddata employee.json
-   14  python manage.py loaddata fixtures.json
-   15  history > history_cmd.txt
+  295  cd ..
+  296  create-react-app my-app
+  297  cd my-app
+  298  npm start
+  299  cd ..
+  300  npx create-react-app tutorial
+  301  yarn global upgrade create-react-app myapp
+  302  global upgrade create-react-app myapp
+  303  upgrade create-react-app myapp
+  304  npm install
+  305  npx create-react-app tutorial
+  306  npm install --save react@latest
+  307  npx create-react-app tutorial
+  308  npx create-react-app my-app
+  309  upgrade-interactive --lates
+  310  cd..
+  311  cd ..
+  312  cd..
+  313  cd ..
+  314  cd Desktop
+  315  mkdir
+  316  cd Reactjs
+  317  npm install create-react-app -g
+  318  create-react-app my-app
+  319  npm --version
+  320  node --version
+  321  create-react-app --version
+  322  npm install -g create-react-app
+  323  npx create-react-app my-app
+  324  npx create-react-app tutorial
+  325  npm uninstall -g create-react-app
+  326  npx create-react-app terminal
+  327  sudo npm install -g create-react-app
+  328  sudo npx create-react-aap tutorial
+  329  sudo npm  create-react-aap@latest
+  330  npx create-react-app myapp
+  331  cd myapp
+  332  npm start
+  333  sudo npm start
+  334  cd ..
+  335  cd tutorial
+  336  npm start
+  337  sudo npm i create-react-app@1.5.2
+  338  sudo npm i create-react-app@1.5.2
+  339  sudo npm i -g create-react-app@1.5.2
+  340  sudo crete-react-app mosh-app
+  341  crete-react-app mosh-app
+  342  create-react-app mosh-app
+  343  sudo npm i -g create-react-app@1.5.2
+  344  sudo npm i -g create-react-app
+  345  sudo create-react-appmosh-app
+  346  create-react-app mosh-app
+  347  cd mosh-app
+  348  npm start
+  349  npm i bootstrap
+  350  sudo npm install bootstrap
+  351  npm start
+  352  create-react-app myapp
+  353  cd myapp
+  354  npm start
+  355  create-react-app myapp
+  356  cd myapp
+  357  npm start
+  358  create-react-app
+  359  create-react-app myapp
+  360  cd myapp
+  361  npm start
+  362  create-react-app formapp
+  363  cd formapp
+  364  npm start
+  365  create-react-app Routerapp
+  366  create-react-app routerapp
+  367  cd routerapp
+  368  npm start
+  369  npm install --save react-router-dom
+  370  npm start
+  371  export PORT=8000
+  372  npm start
+  373  $export PORT=5000
+  374  export PORT=5000
+  375  env:PORT=5000
+  376  npm start
+  377  npm install axios
+  378  npm start
+  379  npm install react-modal
+  380  npm start
+  381  create-react-app storeApp
+  382  storeapp
+  383  create-react-app storeapp
+  384  cd storeapp
+  385  npm start
+  386  npm install --save react-router-dom
+  387  npm install axios
+  388  npm install react-modal
+  389  npm start
+  390  export PORT=5000
+  391  npm start
+  392  npm install --save react-router-dom
+  393  npm start
+  394  export PORT=5000
+  395  npm start
+  396  crteate-react-app restoapp
+  397  npx create-react-app restoapp
+  398  npx create-react-app resto-app
+  399  npx create-react-app restoapp
+  400  node -v
+  401  npx create-react-app restroapp
+  402  npx create-react-app my-app
+  403  npm install -g create-react-app my-app
+  404  npm install create-react-app restoapp -g
+  405  npx create-react-app restoapp -g
+  406  npm install -g create-react-app
+  407  npx create-react-app restoapp
+  408  npm install
+  409  npx create-react-app restoapp
+  410  npx create-react-app myapp
+  411  export PORT=5000
+  412  npm start
+  413  cd..
+  414  cd ..
+  415  npm start
+  416  npm install --save react-router-dom
+  417  npm start
+  418  npm install bootstrap react-bootstrap
+  419  npm start
+  420  npx create-react-app myapp
+  421  npx create-react-app my-app
+  422  npm init react-app myapp
+  423  npm uninstall -g create-react-app
+  424  npm install create-react-app@latest
+  425  npx create-react-app my-app
+  426  cd my-app
+  427  npm start
+  428  npm install json-server -g
+  429  sudo npm install json-server -g
+  430  mkdir db
+  431  ls
+  432  cd db
+  433  touch db.json
+  434  json-server --watch db.json
+  435  cd Documents
+  436  cd RestoProject
+  437  cd my-app
+  438  cd db
+  439  touch db.json
+  440  json-server --watch db.json
+  441  npm start
+  442  export 3001
+  443  SET PORT=3100
+  444  sudo SET PORT=3100
+  445  export PORT=3001
+  446  npm start
+  447  cd db
+  448  touch db.json
+  449  json server --watch db.json
+  450  json-server --watch db.json
+  451  cd..
+  452  cd ..
+  453  npm start
+  454  cd..
+  455  cd ..
+  456  npm start
+  457  npm i react-filter-search
+  458  npm start
+  459  cd db
+  460  touch db.json
+  461  json-server --watch db.json
+  462  create-react-app lifecycle-app
+  463  cd lifecycle-app
+  464  npm start
+  465  npm start
+  466  cd..
+  467  cd ..
+  468  npm start
+  469  cd db
+  470  touch db.json
+  471  json-server --watch db.json
+  472  npm start
+  473  cd ..
+  474  npm start
+  475  cd db 
+  476  touch db
+  477  json-server --watch db.json
+  478  npm start
+  479  cd ..
+  480  create-react-app javapoint-lifecycle
+  481  cd javapoint-lifecycle
+  482  npm start
+  483  cd .
+  484  cd ..
+  485  create-react-app todo-app
+  486  cd todo-app
+  487  npm start
+  488  npm install bootstrap uuid --save
+  489  npm start
+  490  npm intall --save react-boostrap
+  491  install
+  492  npm install --save react-bootstrap
+  493  npm start
+  494  cd db
+  495  json-server --watch db.json
+  496  cd..
+  497  cd ..
+  498  npm start
+  499  npm install
+  500  npm start
+  501  npm install 
+  502  npm start
+  503  npm install
+  504  ls
+  505  npm start
+  506  cd db
+  507  yarn install
+  508  sudo apt install cmdtest
+  509  npm install
+  510  it status
+  511  ls
+  512  rm -rf node_modules/
+  513  npm install
+  514  npm start
+  515  sudo apt-get remove --purge nodejs
+  516  apt-get remove --purge nodejs
+  517  git status
+  518  sudo dpkg --configure -a
+  519  apt-get -f install
+  520  node --version
+  521  npm --version
+  522  whereis node
+  523  which npm
+  524  sudo apt-get install nodejs
+  525  cd Documents/Reactjs/
+  526  ls
+  527  s
+  528  cd gitfit_frontend/
+  529  npm install
+  530  npm -verison
+  531  npm -version
+  532  node -version
+  533  node --version
+  534  ls
+  535  rm -rf node_modules/
+  536  yarn install
+  537  sudo apt install cmdtest
+  538  yarn install
+  539  yarn start
+  540  sudo apt install yarn
+  541  yarn --version
+  542  yarn init my_yarn_project
+  543  yarn --version
+  544  yarn install
+  545  sudo apt install --no-install-recommends yarn
+  546  yarn --version
+  547  yarn init
+  548  sudo apt-get update && sudo apt-get install yarn
+  549  yarn --version
+  550  npm install -g yarn
+  551  sudo apt-get update && sudo apt-get install yarn
+  552  yarn --version
+  553  yarn init
+  554  yarn start
+  555  apt install yarn
+  556  apt install --no-install-recommends yarn
+  557  yarn --version
+  558  yarn version --new-version 1.0.2
+  559  install yarn version --new-version 1.0.2
+  560  install yarn version --new-version
+  561  install --help
+  562  curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+  563  echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+  564  sudo apt-get update
+  565  sudo apt-get install yarn
+  566  yarn ––version
+  567  npm ––version
+  568  sudo apt install npm
+  569  yarn --version
+  570  yarn start
+  571  yarn init
+  572  yarn install
+  573  yarn start
+  574  ls
+  575  rm -rf package-lock.json 
+  576  cd src/
+  577  ls
+  578  cd ..
+  579  ls
+  580  yarn install
+  581  ls
+  582  ll
+  583  git
+  584  sudo apt install git
+  585  yarn install
+  586  yarn start
+  587  sudo rm -r node_modules/
+  588  yarn
+  589  yarn start
+  590  cd ..
+  591  sudo rm -r gitfit_frontend/
+  592  cd gitfit_frontend/
+  593  yarn start
+  594  ls
+  595  cd src
+  596  ls
+  597  cd ..
+  598  yarn install
+  599  yarn start
+  600  create-react-app route-app
+  601  cd route-app
+  602  yarn start
+  603  npm install --save react-router-dom
+  604  yarn start
+  605  yarn install --save react-router-dom
+  606  yarn start
+  607  npm install react-bootstrap bootstrap
+  608  npm install react-bootstrap
+  609  yarn start
+  610  npm install bootstrap react-bootstrap
+  611  yarn start
+  612  yarn add react-router-dom
+  613  yarn start
+  614  yarn add react-router-dom
+  615  yarn start
+  616  yarn  install react-bootstrap bootstrap
+  617  yarn add react-bootstrap bootstrap
+  618  yarn start
+  619  create-react-app sidebar-app
+  620  cd sidebar-app
+  621  yarn start
+  622  npm install --save react-router-dom
+  623  yarn start
+  624  create-react-app key-listapp
+  625  cd key-listapp
+  626  yarn start
+  627  create-react-app json-app
+  628  cd json app
+  629  yarn start
+  630  cd json-app
+  631  yarn start
+  632  npm install react-html-id
+  633  yarn start
+  634  create-react-app new-lifecycle
+  635  cd new-lifecycle
+  636  yarn start
+  637  create-react-app feb-image
+  638  cd feb-image
+  639  yarn start
+  640  npm install --save react-router-dom
+  641  yarn start
+  642  create-react-app image-aap
+  643  cd image-app
+  644  yarn start
+  645  npm install --save react-router-dom
+  646  yarn start
+  647  npm installtachyons
+  648  yarn install tachyons
+  649  yarn add tachyons
+  650  yarn start
+  651  react-scripts start
+  652  sudo react-scripts start
+  653  yarn react-scripts start
+  654  yarn install
+  655  yarn start
+  656  create-react-app jwt-app
+  657  cd jwt-app
+  658  yarn start
+  659  npm install --save react-router-dom
+  660  yarn start
+  661  npm install --save react react-dom
+  662  yarn start
+  663  react-scripts start
+  664  sudo react-scripts start
+  665  yarn react-scripts start
+  666  create-react-app login-redirect
+  667  cd login-redirect
+  668  yarn start
+  669  npm install --save react-router-dom
+  670  yarn start
+  671  yarn run test
+  672  yarn run test -o --watch
+  673  yarn test -o --watch
+  674  yarn start
+  675  yarn start
+  676  npm install --save react-router-dom
+  677  yarn start
+  678  create-react-app condition-route
+  679  yarn start
+  680  npm install --save react-router-dom
+  681  yarn start
+  682  npm install axios
+  683  yarn start
+  684  git status
+  685  git branch
+  686  git checkout .
+  687  git status
+  688  git checkout staging 
+  689  git status
+  690  yarn start\
+  691  /
+  692  cd..
+  693  cd ..
+  694  sudo apt install brightness-controller-simple
+  695  xrandr | grep " connected" | cut -f1 -d " "
+  696  xrandr --output VGA1 --brightness 0.7
+  697  xrandr --output VGA-1 --brightness 0.7
+  698  yarn start
+  699  create-react-app salary-app
+  700  cd salary-app
+  701  Yarn start
+  702  yarn start
+  703  yarn start
+  704  yarn start
+  705  xrandr --output VGA-1 --brightness 0.75
+  706  xrandr --output VGA-1 --brightness 0.65
+  707  xrandr --output VGA-1 --brightness 0.60
+  708  xrandr --output VGA-1 --brightness 0.65
+  709  npm install
+  710  yarn start
+  711  yarn start
+  712  ls
+  713  xrandr | grep " connected" | cut -f1 -d " "
+  714  create-react-app redux-app
+  715  cd redux-app
+  716  yarn start
+  717  npm install
+  718  npm start
+  719  npm install redux react-redux
+  720  yarn start
+  721  npm start
+  722  yarn start
+  723  npm install
+  724  npm start
+  725  touch db.json
+  726  json-server --watch db.json
+  727  cd..
+  728  yarn start
+  729  npm install -g json server
+  730  yarn start
+  731  xrandr | grep " connected" | cut -f1 -d " "
+  732  xrandr --output VGA-1 --brightness 0.60
+  733  sudo npm install -g json-server
+  734  cd db
+  735  touch db.json
+  736  json-server --watch db.json
+  737  yarn start
+  738  npm install redux-thunk
+  739  yarn start
+  740  cd db
+  741  npm install 
+  742  npm start
+  743  json-server --watch db.json
+  744  yarn start
+  745  cd my-app
+  746  yarn start
+  747  cd db
+  748  npm install
+  749  npm start
+  750  json-server --watch db.json
+  751  yarn start
+  752  cd..
+  753  yarn start
+  754  xrandr | grep " connected" | cut -f1 -d " "
+  755  xrandr --output VGA-1 --brightness 0.60
+  756  yarn start
+  757  create-react-app redux-form-app
+  758  cd redux-form-app
+  759  yarn start
+  760  yarn add redux react-redux 
+  761  yarn add redux-thunk
+  762  yarn start
+  763  create-react-app redux-crud
+  764  cd redux-crud
+  765  yarn start
+  766  npm install --save redux react-redux
+  767  yarn start
+  768  yarn add redux-thunk
+  769  yarn start
+  770  npm install redux-store
+  771  yarn start
+  772  yarn add redux-thunk
+  773  yarn start
+  774  node -v
+  775  npm init
+  776  npm start
+  777  node --v
+  778  node -version
+  779  npm install
+  780  npm start
+  781  npm install
+  782  npm rebuild node-sass
+  783  npm start
+  784  yarn start
+  785  yarn start
+  786  create-react-app login-redux
+  787  cd login-redux
+  788  yarn start
+  789  npm install --save react-router
+  790  npm install --save react-router-dom
+  791  yarn start
+  792  npm install axios
+  793  yarn start
+  794  yarn add redux react-redux redux-thunk
+  795  yarn start
+  796  xrandr --output VGA-1 --brightness o.60
+  797  xrandr --output VGA-1 --brightness 0.75
+  798  xrandr --output LVDS-1 --brightness 0.60
+  799  xrandr --output LVDS-1 --brightness 0.65
+  800  yarn start
+  801  yarn add redux react-redux
+  802  yarn start
+  803  yarn add redux-persist
+  804  yarn start
+  805  npm install redux-persist
+  806  yarn start
+  807  npm install react-redux
+  808  yarn start
+  809  npm start
+  810  cd..
+  811  cd ..
+  812  cd
+  813  ssh-keygen
+  814  ssh-keygen lucerne_id_rsa
+  815  ssh-keygen
+  816  git clone git@github.com:YGVision/Payment-System.git
+  817  ls
+  818  cd Payment-System/
+  819  npm start
+  820  npm install
+  821  npm start
+  822  create-react-app storeon-app
+  823  cd storeon-app
+  824  yarn start
+  825  npm install storeon
+  826  npm start
+  827  npm install redux react-redux
+  828  npm start
+  829  npm install
+  830  npm start
+  831  git-fatch 
+  832  git fatch
+  833  git fetch
+  834  git checkout staging 
+  835  git status
+  836  git checkout .
+  837  git status
+  838  git pull origin staging 
+  839  npm start
+  840  create-react-app hook-redux
+  841  cd hook-reduxls
+  842  cd hook-redux
+  843  npm start
+  844  npm install @storeon/localstorage
+  845  npm start
+  846  npm install
+  847  npm start
+  848  cd ..
+  849  cd..
+  850  cd
+  851  cd Desktop/
+  852  npx create-react-app anshul
+  853  cd anshul
+  854  npm run
+  855  yarn start
+  856  npm install
+  857  npm start
+  858  npm install
+  859  npm start
+  860  yarn start
+  861  npm install
+  862  npm start
+  863  npm install
+  864  npm start
+  865  npm i react-filter-search
+  866  npm start
+  867  yarn 
+  868  yarn start
+  869  yarn add react-redux redux
+  870  yarn start
+  871  cp../building-an-online-store-draft/public/products/* public/products
+  872  yarn start
+  873  yarn global add react-devtools
+  874  yarn start
+  875  yarn add redux-devtools-extension
+  876  yarn start
+  877  npm install -g react-devtools@^4
+  878  yarn add react-devtools@^4
+  879  yarn start
+  880  npm start
+  881  yarn start
+  882  npm install
+  883  npm start
+  884  npm install
+  885  npm start
+  886  npm install
+  887  npm start
+  888  cd ..
+  889  cd online-shoppinggit
+  890  cd..
+  891  cd ..
+  892  git init
+  893  git add.
+  894  git config --global user.name
+  895  git clone https://github.com/Rohit96229/online-shopingcart
+  896  git status
+  897  git push -u origin master
+  898  cd..
+  899  cd ..
+  900  git push -u origin master
+  901  git init
+  902  git add README.md
+  903  git commit -m "first commit"
+  904  git remote add origin https://github.com/Rohit96229/online-shopingcart.git
+  905  git config --global user.email "rohit.thoughtwin@gmail.com"
+  906  git remote add origin https://github.com/Rohit96229/online-shopingcart.git
+  907  git push -u origin master
+  908  dir
+  909  cd Documents
+  910  git status
+  911  git push origin master
+  912  cd ..
+  913  git add .
+  914  git commit -m "First commit"
+  915  git commit -m "online-shopping-cart"
+  916  git --version
+  917  git help
+  918  mkdir rohitgit
+  919  cd rohitgit
+  920  git status
+  921  git init
+  922  git status
+  923  git add online-shopping-cart
+  924  git status
+  925  git add .
+  926  git status
+  927  git comit
+  928  git commit
+  929  git commit -m "initial commit"
+  930  git status
+  931  git push origin master
+  932  npm install
+  933  npm start
+  934  git config --global
+  935  git config --global user.name "Rohit96229"
+  936  git config --global "rohit.thought@gmail.com"
+  937  git config --list
+  938  git help
+  939  git help commit
+  940  ls
+  941  git add.
+  942  git add .
+  943  git commit -m "this is my frist project"
+  944  cd..
+  945  cd ..
+  946  pwd
+  947  git log
+  948  git status
+  949  cd ..
+  950  apt-get install git
+  951  yum install git
+  952  git remote add origin https://github.com/Rohit96229/Git-Tutorial.git
+  953  git push -u origin master
+  954  get confic user.email
+  955  git config user.email
+  956  ssh-keygen -t rsa -b 4096 -C "rohit.thoughtwin@gmail.com"
+  957  $ ssh-add ~/.ssh/id_rsa
+  958  sudo apt-get install xclip
+  959  ssh-add ~/.ssh/id_rsa
+  960  sudo apt-get install xclip
+  961  git -- version
+  962  git --version
+  963  git status
+  964  git init
+  965  git status
+  966  git init
+  967  git add .
+  968  git status
+  969  git commit -m "Version 2"
+  970  git log
+  971  git config --global user.name "Rohit96229"
+  972  git config --global user.email "rohit.thoughtwin@gmail.com"
+  973  git status
+  974  git remote add origin https://github.com/Rohit96229/shopping-cart.git
+  975  git push -u origin master
+  976  ssh-keygen -t rsa -b 4096 -C "rohit.thoughtwin@gmail.com"
+  977  ssh-add ~/.ssh/id_rsa
+  978  git push -u origin master
+  979  git config --global credential.helper cache
+  980  Set git to use the credential memory cache
+  981  xclip -sel clip < ~/.ssh/id_rsa.pub
+  982  git push -u origin master
+  983  npm start
+  984  git commit -m "version 2"
+  985  git log
+  986  git push -u origin master
+  987  npm start
+  988  git push -u origin master
+  989  git add .
+  990  git commit -m "version 2"
+  991  git push -u origin master
+  992  npm start
+  993  git commit
+  994  git log
+  995  git pull origin master
+  996  npm start
+  997  git add .
+  998  git status
+  999  git commit -m "staging"
+ 1000  git push -u origin master
+ 1001  npm start
+ 1002  npm install
+ 1003  npm start
+ 1004  yarn start
+ 1005  git add .
+ 1006  git status
+ 1007  git commit -m "initial change"
+ 1008  git log
+ 1009  git push -u origin master
+ 1010  npm start
+ 1011  git log
+ 1012  npm start
+ 1013  npm start
+ 1014  git add .
+ 1015  git status
+ 1016  git pull -u origin master
+ 1017  npm start
+ 1018  git log
+ 1019  git checkout staging
+ 1020  git pull origin staging
+ 1021  git commit -m "initial change
+ 1022  git commit -m "initial change"
+ 1023  git pull origin staging
+ 1024  npm start
+ 1025  npm install
+ 1026  npm start
+ 1027  git clone https://iamdeveloper_me@bitbucket.org/iamdeveloper_me/gitfit_frontend.git
+ 1028  cd gitfit-frontend
+ 1029  npm start
+ 1030  cd..
+ 1031  cd ..
+ 1032  git clone https://iamdeveloper_me@bitbucket.org/iamdeveloper_me/gitfit_frontend.git
+ 1033  cd gitfit-frontend
+ 1034  cd gitfit_fronted
+ 1035  cd gitfit_frontend
+ 1036  npm start
+ 1037  npm install
+ 1038  git pull origin staging
+ 1039  npm start
+ 1040  npm install
+ 1041  git status
+ 1042  npm start -- --reset-cache
+ 1043  git status
+ 1044  git checkout staging 
+ 1045  git status
+ 1046  npm start
+ 1047  git add .
+ 1048  git status
+ 1049  git commit -m "....."
+ 1050  git pull -u origin master
+ 1051  npm start
+ 1052  git status
+ 1053  git k
+ 1054  gitk
+ 1055  sudo apt install gitk
+ 1056  npm start
+ 1057  git push -u origin master
+ 1058  git add .
+ 1059  git status
+ 1060  git push -u origin master
+ 1061  npm start
+ 1062  git add .
+ 1063  git status
+ 1064  git pull -u origin master
+ 1065  npm start
+ 1066  create-react-app material-ui
+ 1067  cd material-ui
+ 1068  yarn start
+ 1069  $ npm install @material-ui/core
+ 1070  npm install @material-ui/core
+ 1071  npm start
+ 1072  yarn add @material-ui/core
+ 1073  yarn start
+ 1074  yarn add  @material-ui
+ 1075  yarn start
+ 1076  yarn add @material-ui/core
+ 1077  yarn start
+ 1078  npm install --save material-ui@next
+ 1079  yarn start
+ 1080  npm install
+ 1081  npm start
+ 1082  npm install @material-ui/icons
+ 1083  npm start
+ 1084  create-react-app material-app
+ 1085  cd material-app
+ 1086  yarn start
+ 1087  yarn add react-mdl
+ 1088  yarn start
+ 1089  yarn add react-router-dom
+ 1090  yarn start
+ 1091  yarn add @material-ui/core
+ 1092  yarn start
+ 1093  npm install
+ 1094  npm start
+ 1095  python --v
+ 1096  python --version
+ 1097  python3 --version
+ 1098  cypress --version
+ 1099  git
+ 1100  sudo snap remove slack
+ 1101  sudo apt remove slack
+ 1102  sudo apt autoremove 
+ 1103  sudo snap install slack
+ 1104  sudo snap install slack --classic
+ 1105  sudo apt purge slack
+ 1106  sudo apt remove slack*
+ 1107  sudo snap install slack --classic
+ 1108  git clone https://github.com/nisha-thoughtwin/drf_crud.git
+ 1109  cd drf_crud
+ 1110  python3 manage.py runserver
+ 1111  pip3 install django
+ 1112  sudo apt install python3-pip
+ 1113  pip3 install django
+ 1114  sudo apt install python3-pip
+ 1115  pip3 install django
+ 1116  sudo apt install python3-pip
+ 1117  sudo apt get update
+ 1118  sudo apt-get update
+ 1119  curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+ 1120  sudo apt-key adv --refresh-keys --keyserver keyserver.ubuntu.com
+ 1121  sudo apt-get update
+ 1122  sudo snap install sublime-text --classic
+ 1123  npx cypress open
+ 1124  npm install --save-dev cypress
+ 1125  npx cypress open
+ 1126  $ django-admin startproject mysite
+ 1127  django-admin startproject admin-cypress
+ 1128  pip3 instal django
+ 1129  pip3 install django
+ 1130  pip3 install Django
+ 1131  sudo apt install python3-pip
+ 1132  pip3 install Django
+ 1133  $ django-admin startproject admin-cy
+ 1134  $ django-admin startproject mysite
+ 1135  django-admin startproject mysite
+ 1136  sudo apt install python-django-common
+ 1137  django-admin startproject mysite
+ 1138  pip3 install django
+ 1139  django-admin startproject mysite
+ 1140  pip install django
+ 1141  sudo apt install python3-django
+ 1142  django-admin startproject mysite
+ 1143  python3 manage.py runsever
+ 1144  cd mysite
+ 1145  python3 manage.py runsever
+ 1146  python3 manage.py runserver
+ 1147  $ python manage.py startapp polls
+ 1148  python3 manage.py startapp first
+ 1149  python3 manage.py runserver
+ 1150  python3 manage.pypy makemigrations
+ 1151  python3 manage.py makemigrations
+ 1152  python3 manage.py migrate
+ 1153  python3 manage.py runserver
+ 1154  python3 manage.py r createsuperuser
+ 1155  python3 manage.py  createsuperuser
+ 1156  python3 manage.py runserver
+ 1157  sudo apt remove upwork
+ 1158  sudo apt autoremove
+ 1159  sudo apt upgrade
+ 1160  sudo apt update
+ 1161  sudo apt upgrade
+ 1162  sudo snap install atom
+ 1163  sudo nano ~/.bash_profile
+ 1164  rabbitmq-server
+ 1165  sudo rabbitmq-server
+ 1166  python3 manage.py runserver
+ 1167  celery -A drf beat -l info 
+ 1168  celery -A drf worker  -l info 
+ 1169  shutdown mow
+ 1170  shutdown now
+ 1171  ls
+ 1172  cd $ mkdir django_g\raphql_movies
+ 1173  cd django_graphql_movies/
+ 1174  code .
+ 1175  python3 -m venv env
+ 1176  . env/bin/activate
+ 1177  env/bin/activate
+ 1178  pip install graphene_django
+ 1179  pip3 install graphene_django
+ 1180  django-admin.py startproject django_graphql_movies
+ 1181  cd django_graphql_movies/
+ 1182  django-admin.py startapp movies
+ 1183  ls
+ 1184  l
+ 1185  ls
+ 1186  cd ..
+ 1187  ls env/bin/
+ 1188  rm -rf env/
+ 1189  virtualenv env
+ 1190  sudo apt install virtualenv
+ 1191  virtualenv env
+ 1192  source env/bin/activate
+ 1193  $ pip install Django
+ 1194  $ pip install  django graphene_django
+ 1195  $ pip3 install  django graphene_django
+ 1196  cd django_graphql_movies/
+ 1197  ls
+ 1198  python manage.py makemigrations
+ 1199  python3 manage.py makemigrations
+ 1200  python3 manage.py migrate
+ 1201  python3 manage.py loaddata movies.json
+ 1202  python~ manage.py runserver
+ 1203  python3 manage.py runserver
+ 1204  $ pip3 install  django graphene_django
+ 1205  python3 manage.py runserver
+ 1206  pip3  install graphql
+ 1207  pip3  install cython
+ 1208  pip3  install graphql
+ 1209  pip - V
+ 1210  pip3 - V
+ 1211  pip3 -V
+ 1212  python -m pip install --upgrade
+ 1213  python3 -m pip install --upgrade
+ 1214  sudo -H pip3 install --upgrade pip
+ 1215  pip3  install graphql
+ 1216  sudo apt install python==3.9
+ 1217  sudo apt upgrade
+ 1218  sudo apt-get install python3.9
+ 1219  sudo apt update -y
+ 1220  sudo apt install python3.7
+ 1221  sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.7 2
+ 1222  sudo update-alternatives --config python3
+ 1223  sudo ln -s python3.7 /usr/bin/python3
+ 1224  python3 -V
+ 1225  pip3 -V
+ 1226  sudo -H pip3 install --upgrade pip
+ 1227  python3
+ 1228  sudo apt install python3-pip
+ 1229  pip3 install graphql
+ 1230  pip3 install graphene_django
+ 1231  python3 manage.py runserver
+ 1232  ls
+ 1233  cd django_graphql_movies/
+ 1234  ls
+ 1235  python3 manage.py runserver
+ 1236  cd employee/
+ 1237  celery -A worker tasks -l info
+ 1238  celery -A  tasks  worker -l info
+ 1239  export DJANGO_SETTINGS_MODULE=mysite.settings
+ 1240  celery -A  tasks  worker -l info
+ 1241  export DJANGO_SETTINGS_MODULE=drf.settings
+ 1242  celery -A  tasks  worker -l info
+ 1243  export DJANGO_SETTINGS_MODULE=drf.settings
+ 1244  celery -A  tasks  worker -l info
+ 1245  cd ..
+ 1246  celery -A  tasks  worker -l info
+ 1247  celery -A  drf  worker -l info
+ 1248  cd employee/
+ 1249  celery -A  tasks  worker -l info
+ 1250  django-admin --settings=drf.settings dbshell
+ 1251  pip3 uninstall celery
+ 1252  pip3 install celery
+ 1253  celery -A  tasks  worker -l info
+ 1254  celery -A  tasks]  worker -l info
+ 1255  celery -A  tasks  worker -l info
+ 1256  celery -A  task  worker -l info
+ 1257  set  DJANGO_SETTINGS_MODULE=settings
+ 1258  celery -A  task  worker -l info
+ 1259  python3 manage.py runserver
+ 1260  cd employee/
+ 1261  celery -A  task  worker -l info
+ 1262  celery -A  tasks  worker -l info
+ 1263  pip install standalone
+ 1264  pip3 install standalone
+ 1265  celery -A  tasks  worker -l info
+ 1266  pip3 install standalone
+ 1267  celery -A  tasks  worker -l info
+ 1268  cd ..
+ 1269  celery -A  drf worker -l info
+ 1270  celery -A drf beat -l info
+ 1271  pip3 install -r requirments.txt 
+ 1272  pip install -r requirments.txt 
+ 1273  python -m pip install --upgrade pip
+ 1274  python3 -m pip install --upgrade pip
+ 1275  pip install -r requirments.txt 
+ 1276  celery -A drf beat -l info
+ 1277  pip3 install celery
+ 1278  celery -A drf beat -l info
+ 1279  cd employee/
+ 1280  celery -A tasks beat -l info
+ 1281  pip3 install redis
+ 1282  celery -A tasks beat -l info
+ 1283  sudo apt install redis
+ 1284  celery -A tasks beat -l info
+ 1285  cd ..
+ 1286  celery -A drf beat -l info
+ 1287  celery -A drf beat -l info\
+ 1288  celery -A drf beat -l info
+ 1289  python3 manage.py runserver
+ 1290  celery -A drf beat -l info
+ 1291  celery -A drf worker -l info
+ 1292  python3 manage.py createsuperuser
+ 1293  python3 manage.py runserver
+ 1294  history > history_cmd.txt

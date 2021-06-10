@@ -53,11 +53,17 @@ MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
+    'django.middleware.cache.UpdateCacheMiddleware',
+    'django.middleware.cache.FetchFromCacheMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+
+
 ]
+
+CACHE_MIDDLEWARE_SECONDS=30
 
 ROOT_URLCONF = 'drf.urls'
 
@@ -115,13 +121,13 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Kolkata'
 
 USE_I18N = True
 
 USE_L10N = True
 
-USE_TZ = True
+USE_TZ = False
 
 
 # Static files (CSS, JavaScript, Images)
@@ -184,30 +190,43 @@ CELERY_TASK_SERIALIZER = 'json'
 
 
 # DataFlair #Logging Information
-LOGGING = {
-    'version': 1,
-    # Version of logging
-    'disable_existing_loggers': False,
-    #disable logging 
-    # Handlers #############################################################
-    'handlers': {
-        'file': {
-            'level': 'DEBUG',
-            'class': 'logging.FileHandler',
-            'filename': 'dataflair-debug.log',
-        },
-########################################################################
-        'console': {
-            'class': 'logging.StreamHandler',
-        },
-    },
-    # Loggers ####################################################################
-    'loggers': {
-        'django': {
-            'handlers': ['file', 'console'],
-            'level': 'DEBUG',
-            'propagate': True,
-            'level': os.getenv('DJANGO_LOG_LEVEL', 'DEBUG')
-        },
-    },
+# LOGGING = {
+#     'version': 1,
+#     # Version of logging
+#     'disable_existing_loggers': False,
+#     #disable logging 
+#     # Handlers
+#     'handlers': {
+#         'file': {
+#             'level': 'DEBUG',
+#             'class': 'logging.FileHandler',
+#             'filename': 'dataflair-debug.log',
+#         },
+
+#         'console': {
+#             'class': 'logging.StreamHandler',
+#         },
+#     },
+    
+#     'loggers': {
+#         'django': {
+#             'handlers': ['file', 'console'],
+#             'level': 'DEBUG',
+#             'propagate': True,
+#             'level': os.getenv('DJANGO_LOG_LEVEL', 'DEBUG')
+#         },
+#     },
+# }
+
+CECHE_MIDDILWARE_SECOND = 60
+
+CACHES = {
+   'default': {
+      'BACKEND': 'django.core.cache.backends.db.DatabaseCache',
+      'LOCATION': 'cache_table',
+   }
 }
+
+
+STRIPE_SECRATE_KEY = 'sk_test_51J0igoSEt4gIgGS1gIIdqefFcYqWnRKzG2ZEqiJK5N2EmNzrQALy5Nkf690MOTMw7U9Ews5m01LxB9n8mj582WIh00hrotCuhq'
+STRIPE_PUBLISHABLE_KEY = 'pk_test_51J0igoSEt4gIgGS1LTDh74gY0P81EbPVPj3xJiHMlmWNCFeoo541xH4rzwkgmMW1VyJdlhRF6KGo57l0vUvjoelm00JUzYlYlt'
