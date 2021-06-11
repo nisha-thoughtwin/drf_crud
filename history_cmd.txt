@@ -997,4 +997,4 @@
  1291  celery -A drf worker -l info
  1292  python3 manage.py createsuperuser
  1293  python3 manage.py runserver
- 1294  history > history_cmd.txt
+ 1294  

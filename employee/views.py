@@ -1,4 +1,3 @@
-import re
 from django.shortcuts import render,HttpResponse
 from django.views import View
 from django.views.generic.base import TemplateView
@@ -18,7 +17,7 @@ from django.db.models import query
 from rest_framework import generics,viewsets
 from rest_framework.response import Response
 from . import serializers
-from . import models
+# from . import models
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.authentication import TokenAuthentication
 from .tasks import add,mail
@@ -37,7 +36,7 @@ def adds(request):
 class ClickMe(TemplateView):
     template_name="clickme.html"
 
-
+# --------------------------------------- Payment Gateway --------------------
 stripe.api_key = settings.STRIPE_SECRATE_KEY
 class PaymentGateway(TemplateView):
     template_name="paymentgateway.html"
@@ -50,16 +49,13 @@ class PaymentGateway(TemplateView):
 def charge(request):
     if request.method == 'POST':
         charge = stripe.Charge.create(
-            amount=500,
-            currency='inr', 
-            description= 'Payment gateway',
-            source=request.POST['stripeToken']
+            amount = 100000,
+            currency = 'inr', 
+            description = 'Payment gateway',
+            source = request.POST['stripeToken']
             )
         return render(request,'charge.html')
     
-# class PaymentSuccess(TemplateView):
-#     template_name = 'paymentsuccessfull.html'
-
 # --------------------------------------class based APIView--------------------
 
 class ArticleView(APIView):
@@ -130,7 +126,7 @@ class EmployeeDeleteApi(generics.DestroyAPIView):
 #   --------------------------------- ModelViewset-------------------------------
 
 class Employeeviewset(viewsets.ModelViewSet):
-  queryset = models.Employee.objects.all()
+  queryset = Employee.objects.all()
   serializer_class = serializers.EmployeeSerializer
   authentication_classes = [TokenAuthentication]
 #   permission_classes = [IsAuthenticated]

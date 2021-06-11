@@ -129,19 +129,28 @@ USE_L10N = True
 
 USE_TZ = False
 
+PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
+
 STATIC_URL = '/static/'
-STATIC_ROOT = 'static'
+STATIC_ROOT = os.path.join(PROJECT_ROOT, 'staticfiles')
+
+# Extra places for collectstatic to find static files.
+STATICFILES_DIRS = (
+    os.path.join(PROJECT_ROOT, 'static'),
+)
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+# --------------------------------------- Logging --------------------------------------- 
+
 import sentry_sdk
 from sentry_sdk.integrations.django import DjangoIntegration
-
 
 sentry_sdk.init(
     dsn="https://bfb320af5c1a4f568e6ef3770a367816@o769804.ingest.sentry.io/5794997",
@@ -189,7 +198,8 @@ CELERY_TASK_SERIALIZER = 'json'
 # }
 
 
-# DataFlair #Logging Information
+# --------------------------------------- Logging --------------------------------------- 
+
 # LOGGING = {
 #     'version': 1,
 #     # Version of logging
@@ -217,8 +227,8 @@ CELERY_TASK_SERIALIZER = 'json'
 #         },
 #     },
 # }
-
-CECHE_MIDDILWARE_SECOND = 60
+ 
+#--------------------------------------- Chaching ---------------------------------------
 
 CACHES = {
    'default': {
@@ -227,6 +237,7 @@ CACHES = {
    }
 }
 
+#------------------------------------------- -Payment Gateway --------------------------------
 
 STRIPE_SECRATE_KEY = 'sk_test_51J0igoSEt4gIgGS1gIIdqefFcYqWnRKzG2ZEqiJK5N2EmNzrQALy5Nkf690MOTMw7U9Ews5m01LxB9n8mj582WIh00hrotCuhq'
 STRIPE_PUBLISHABLE_KEY = 'pk_test_51J0igoSEt4gIgGS1LTDh74gY0P81EbPVPj3xJiHMlmWNCFeoo541xH4rzwkgmMW1VyJdlhRF6KGo57l0vUvjoelm00JUzYlYlt'
