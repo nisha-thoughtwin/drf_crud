@@ -18,7 +18,8 @@ from django.urls import path,include
 from rest_framework.authtoken.views import obtain_auth_token
 from rest_framework_simplejwt.views import TokenObtainPairView,TokenRefreshView,TokenVerifyView
 from employee.auth import CustomAuthToken 
-
+from django.conf import settings
+from django.conf.urls.static import static
 def trigger_error(request):
     division_by_zero = 1 / 0
 
@@ -35,4 +36,4 @@ urlpatterns = [
     path('sentry-debug/', trigger_error),
 
 
-]
+]+ static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
