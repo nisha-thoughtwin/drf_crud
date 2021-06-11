@@ -3,4 +3,4 @@ djangorestframework
 gunicorn
 sentry-sdk
 celery
-
+bootcamp
