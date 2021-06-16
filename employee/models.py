@@ -42,4 +42,11 @@ def create_auth_token(sender, instance=None, created=True, **kwargs):
         Token.objects.create(user=instance)
 
 
-
+class Data(models.Model):
+  First_name = models.CharField(max_length=100)
+  Last_name = models.CharField(max_length=100)
+  Age = models.IntegerField()
+  Dob = models.CharField(max_length=100)
+  
+  def __str__(self):
+    return self.First_name

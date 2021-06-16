@@ -20,13 +20,33 @@ from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView
 from employee.auth import CustomAuthToken
 from django.conf import settings
 from django.conf.urls.static import static
+from django.conf.urls.i18n import i18n_patterns
+from django.conf.urls import url
+from django.utils.translation import gettext_lazy as _
+
 
 
 def trigger_error(request):
     division_by_zero = 1 / 0
 
 
-urlpatterns = [
+# urlpatterns = [
+#     path('i18n/', include('django.conf.urls.i18n')),
+#     path('', admin.site.urls),
+#     path('employee/', include('employee.urls')),
+#     path('gettoken/', obtain_auth_token),
+#     path('custom_gettoken/', CustomAuthToken.as_view()),
+
+#     path('api/token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
+#     path('refreshtoken/', TokenRefreshView.as_view(), name='token_refresh'),
+#     # path('verifytoken/', TokenVerifyView.as_view(), name='token_verify'),
+
+#     path('sentry-debug/', trigger_error),
+
+
+# ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+
+urlpatterns = i18n_patterns(
     path('', admin.site.urls),
     path('employee/', include('employee.urls')),
     path('gettoken/', obtain_auth_token),
@@ -37,6 +57,5 @@ urlpatterns = [
     # path('verifytoken/', TokenVerifyView.as_view(), name='token_verify'),
 
     path('sentry-debug/', trigger_error),
-
-
-] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+        prefix_default_language=False
+    )  

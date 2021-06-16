@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Data</title>
+</head>
+<body>
+  <div class="container mt-5">
+    <h3>Export Data</h3>
+    <p>exporting from database</p>
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <p>Please select format of file.</p>
+        <select name="file-format" class="form-control my-3">
+            <option selected>Choose format...</option>
+            <option>CSV</option>
+            <option>JSON</option>
+            <option>XLS (Excel)</option>
+            <option>XLSX</option>
+            <option>TSV</option>
+            <option>YAML</option>
+          </select>
+        <button class="btn btn-primary" type="submit">Export</button>
+      </form>
+
+</body>
+</html>

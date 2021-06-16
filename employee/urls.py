@@ -3,7 +3,7 @@ from django.urls import path
 from rest_framework import routers
 from employee.views import ClickMe,PaymentGateway,charge, EmployeeCreateApi,EmployeeListApi,EmployeeUpdateApi,EmployeeDeleteApi
 
-from employee.views import ArticleView,ArticleRetrive,adds
+from employee.views import ArticleView,ArticleRetrive,adds,export_data,import_data,DataAdd,DataView,DataUpdate,DataDelete
 from employee import views as api
 
 router = routers.DefaultRouter()
@@ -24,5 +24,12 @@ urlpatterns =[
   path('articles/', ArticleView.as_view(),name="articles"),
   path('articles_retrive/<int:pk>/', ArticleRetrive.as_view()),
   path('api/', include(router.urls)),
+
+  path('export_data/',export_data,name="export_data"),
+  path('import_data/',import_data,name="import_data"),
+  path('data_add/', DataAdd.as_view(), name='data_add'),
+  path('data_view/', DataView.as_view(), name='data_view'),
+  path('data_update/<int:pk>/update/', DataUpdate.as_view(), name='data_update'),
+  path('data_delete/<int:pk>/delete/', DataDelete.as_view(), name='data_delete'),
   ]
 # urlpatterns = router.urls

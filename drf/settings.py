@@ -12,7 +12,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 
 import os
 from pathlib import Path
-
+from django.utils.translation import ugettext_lazy as _
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -40,8 +40,12 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework.authtoken',
     'rest_framework',
+    'import_export',
     'employee',
 ]
+
+IMPORT_EXPORT_USE_TRANSACTIONS = True
+
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [
         'rest_framework.authentication.TokenAuthentication',
@@ -53,17 +57,18 @@ MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
-    'django.middleware.cache.UpdateCacheMiddleware',
-    'django.middleware.cache.FetchFromCacheMiddleware',
+    # 'django.middleware.cache.UpdateCacheMiddleware',
+    # 'django.middleware.cache.FetchFromCacheMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'django.middleware.locale.LocaleMiddleware',
 
 
 ]
 
-CACHE_MIDDLEWARE_SECONDS=30
+# CACHE_MIDDLEWARE_SECONDS=30
 
 ROOT_URLCONF = 'drf.urls'
 
@@ -118,16 +123,20 @@ AUTH_PASSWORD_VALIDATORS = [
 
 # Internationalization
 # https://docs.djangoproject.com/en/3.2/topics/i18n/
+LOCALE_PATHS = [os.path.join(BASE_DIR, 'locale')]
+LANGUAGE_CODE = 'hi'
 
-LANGUAGE_CODE = 'en-us'
-
+LANGUAGES = (
+    ('en-us', _('English')),
+    ('hi', _('hindi')),
+)
 TIME_ZONE = 'Asia/Kolkata'
 
 USE_I18N = True
 
 USE_L10N = True
 
-USE_TZ = False
+USE_TZ = True
 
 PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 
@@ -226,12 +235,12 @@ CELERY_TASK_SERIALIZER = 'json'
  
 #--------------------------------------- Chaching ---------------------------------------
 
-CACHES = {
-   'default': {
-      'BACKEND': 'django.core.cache.backends.db.DatabaseCache',
-      'LOCATION': 'cache_table',
-   }
-}
+# CACHES = {
+#    'default': {
+#       'BACKEND': 'django.core.cache.backends.db.DatabaseCache',
+#       'LOCATION': 'cache_table',
+#    }
+# }
 
 #------------------------------------------- -Payment Gateway --------------------------------
 
