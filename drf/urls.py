@@ -58,4 +58,4 @@ urlpatterns = i18n_patterns(
 
     path('sentry-debug/', trigger_error),
         prefix_default_language=False
-    )  
+    )   + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
